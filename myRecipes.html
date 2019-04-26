@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/minicarousel.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/minicarousel-theme.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <title>Quisine</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="index.html"><img class="logo w=100%" src="assets/images/Qlogo.jpg" alt="logo"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="myRecipes.html">My Recipes</a>
+      </li>
+    </ul>
+     <div style="padding:10px; margin:5px">
+    <span id="login-message" style="margin-right:10px;color: white"></span>
+    <button type="button" class="btn btn-info" id="signin">Sign in</button>
+
+    <button type="button" class="btn btn-info" id="sign-out" >Sign Out</button>
+  </div>
+    <div class="btn-group float-right">
+      
+        <button type="button" class="btn btn-info dropdown-toggle" id="dropdown-display" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Search Category
+        </button>
+        <div class="dropdown-menu">
+            <a class="recipe-category dropdown-item" href="#a" value="">All My Recipes</a>
+          <a class="recipe-category dropdown-item" href="#a" value="American">American</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Chinese">Chinese</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Cuban">Cuban</a>
+          <a class="recipe-category dropdown-item" href="#a" value="French">French</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Greek">Greek</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Indian">Indian</a>       
+          <a class="recipe-category dropdown-item" href="#a" value="Italian">Italian</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Japanese">Japanese</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Mediterranean">Mediterranean</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Mexican">Mexican</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Portuguese">Portuguese</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Spanish">Spanish</a>
+          <a class="recipe-category dropdown-item" href="#a" value="Thai">Thai</a>
+
+        </div>
+      </div>
+
+  </div>
+</nav>
+<div style="width:90%; margin: 0 auto">
+
+  <!--  Recipe Body  -->
+  <div class="myRecipes " id="details-appear-here" >
+
+  </div>
+</div>
+
+<div class="footer-dark">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
+            href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+      </div>
+      <p class="copyright">Roopa, Seema , Kevin and Nestor © 2018</p>
+    </div>
+  </footer>
+</div>
+
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+  <script src="assets/javascript/myRecipes.js"></script>
+</body>
+
+</html>
